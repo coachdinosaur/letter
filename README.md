@@ -1,7 +1,23 @@
-# Church Concert Letter Studio
+# Invitation Letter Studio
 
-A responsive static web app for creating, copying, printing, and saving polished church concert invitation letters.
+A responsive static web app for creating polished invitation letters for churches, senior high schools, and institutional bands.
 
-The app includes September worship and December Christmas concert templates based on the supplied invitation document.
+## Templates
 
-Expected GitHub Pages URL: `https://coachdinosaur.github.io/letter/`
+- Fall Worship Concert
+- Christmas Concert
+- Senior High School invitation for Grade 11 and Grade 12 students
+- Institutional Band performance invitation
+
+## Features
+
+- Audience-specific fields and wording
+- Live formatted letter preview
+- Local browser autosave
+- Completion progress indicator
+- Copy-to-clipboard
+- Print and Save as PDF
+- Responsive mobile action bar
+- Accessible keyboard and print layouts
+
+Live site: `https://coachdinosaur.github.io/letter/`
