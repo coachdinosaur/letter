@@ -30,7 +30,7 @@
         'This special evening will feature seasonal classics, inspirational praise, and joyful musical performances centered on the hope and light that Jesus brings into the world.'
       ],
       afterDetails: d => [
-        d.includeRefreshments ? `Light refreshments and fellowship will follow the performance in the ${v(d.fellowshipLocation, '[Fellowship Hall/Foyer]')}.` : '',
+        d.includeRefreshments ? `Light refreshments and fellowship will follow the performance in the ${textValue(d.fellowshipLocation, '[Fellowship Hall/Foyer]')}.` : '',
         'Please feel free to share this invitation with your members. We hope to see many of your congregation there as we celebrate the reason for the season together.',
         'May God bless your ministry during this holy season.'
       ].filter(Boolean), closing: 'Warmly in Christ,'
@@ -63,7 +63,7 @@
         'Your participation would add distinction, energy, and meaningful public service to the occasion, while giving our audience the opportunity to appreciate the excellence and discipline represented by your ensemble.'
       ],
       afterDetails: d => [
-        `We respectfully request a performance of approximately ${v(d.performanceLength, '[Performance Length]')}. Suggested selections may include ${v(d.repertoire, '[Preferred Repertoire]')}.`,
+        `We respectfully request a performance of approximately ${textValue(d.performanceLength, '[Performance Length]')}. Suggested selections may include ${textValue(d.repertoire, '[Preferred Repertoire]')}.`,
         d.logistics || 'Please advise us of your staging, sound, transport access, security, and other logistical requirements so we can coordinate properly.',
         contactSentence(d),
         'We sincerely hope your distinguished band can join us, and we look forward to the possibility of working with your office.'
